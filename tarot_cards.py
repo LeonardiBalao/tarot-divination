@@ -407,9 +407,4 @@ major_tarot_cards = [
 ]
 
 # INVOCATION OF THE GOLDEN DAWN
-initial_invocation = """I invoke Thee, IAO, that thou wilt send HRU, the great
-Angel that is set over the operations of this secret Wisdom, to
-lay his hand invisibly on these consecrated cards of art, that
-thereby we may obtain true knowledge of hidden things to
-the glory of thine ineffable Name. Amen"
-"""
+initial_invocation = "I, invoke Thee, IAO, that thou wilt send HRU, the great Angel that is set over the operations of this secret Wisdom, to lay his hand invisibly on these consecrated cards of art, that thereby we may obtain true knowledge of hidden things to the glory of thine ineffable Name.\nAmen"
