@@ -1,4 +1,17 @@
 # TAROT CARDS
+
+# INFORMATION GUIDE
+
+information_guide = {
+    "dominant": "The three next cards representes the nature of the problem and primary influences.The first card is the main one, followed by the two influencers.",
+    "potential_left": "The cards on the upper left are a development of the cards on the upper right. If they are in conflict, the cards on the upper left would then be possibilities of alternative action.",
+    "potential_right": "The upper right may be considered the direction the querent’s life will naturally flow unless action is taken to change this course.",
+    "assist_cards": "These cards assists the querent in making whatever decision may be necessary. They indicate the psychological basis and implications of the issue",
+    "destiny_cards": "These cards show forces operating beyond the querent’s control—destiny or karma—to which the querent can adapt. In this sense they constitute advice as well.",
+    "court_cards": "Princes and queens most often indicate actual men and women connected with the matter. Knights may mean the coming or going of a matter, or arrival or departure, according to the direction in which they face. Princesses may show ideas, thoughts, or opinions related to the subject. The court cards in general represent psychological states.",
+    "groups": "Wands indicate great energy; cups, love and emotions; swords relate to intellectual matters; and disks, business affairs. A majority of Trumps indicates higher forces at work. Court cards indicate social events, aces, new beginnings, great energy, and strength.",
+    "neighbord_cards": "A card’s meaning is strengthened by neighboring cards of the same suit. Cards of opposite nature are weaker. Swords are adverse to disks. Wands oppose cups. Swords are friendly to cups and wands. Wands complement swords and disks. A card falling between two contrary cards is affected by neither"
+}
 # WARDS TAROT
 wards_tarot_cards = [
     {
