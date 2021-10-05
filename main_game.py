@@ -59,6 +59,7 @@ class Tarot:
         tarot.get_purpouse()
         tarot.shuffle_deck_three_times()
         tarot.draw_fifteen()
+        tarot.show_instructions()
         tarot.show_dominant_cards()
         sleep(5)
         tarot.show_potential_cards_upper_right()
@@ -118,6 +119,25 @@ class Tarot:
                 self.assist_cards.append(self.drawed[j])
             if j == 6 or j == 10 or j == 13:
                 self.destiny_cards.append(self.drawed[j])
+
+
+    def show_instructions(self):
+        self.draw_line()
+        print("INSTRUCTIONS".ljust(self.line_size) + '\n')
+        self.draw_line()
+        sleep(1)
+        print("About the Court Cards".ljust(self.line_size) + '\n')
+        print("\n".join(
+            wrap(tarot_cards.information_guide["court_cards"], self.line_size)) + "\n")
+        self.draw_line()
+        sleep(1)
+        print("About group cards".ljust(self.line_size) + '\n')
+        print("\n".join(
+            wrap(tarot_cards.information_guide["groups"], self.line_size)) + "\n")
+        self.draw_line()
+        print("About neighbord cards".ljust(self.line_size) + '\n')
+        print("\n".join(
+            wrap(tarot_cards.information_guide["neighbord_cards"], self.line_size)) + "\n")
 
     def show_dominant_cards(self):
         self.draw_line()
