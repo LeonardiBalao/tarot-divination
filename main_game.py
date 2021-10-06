@@ -50,26 +50,6 @@ class Tarot:
             # Adding Majors
             self.deck.append(tarot_cards.major_tarot_cards[i])
 
-    def start_taro(self):
-        self.draw_line()
-        print("TARO DIVINATION DARK MAGICK".center(self.line_size))
-        self.draw_line()
-        tarot.fillDeck()
-        tarot.get_name()
-        tarot.get_purpouse()
-        tarot.shuffle_deck_three_times()
-        tarot.draw_fifteen()
-        tarot.show_instructions()
-        tarot.show_dominant_cards()
-        sleep(5)
-        tarot.show_potential_cards_upper_right()
-        sleep(5)
-        tarot.show_pontetial_cards_upper_left()
-        sleep(5)
-        tarot.show_assist_cards()
-        sleep(5)
-        tarot.show_destiny_cards()
-
     def invocation(self):
         self.draw_line()
         print("SACRED INVOCATION".center(self.line_size))
@@ -84,7 +64,7 @@ class Tarot:
         sleep(1)
         print(f"Today's date is {self.current_date}.")
         sleep(1)
-        print(f"Take your time to do the following invocation with meaning and purpouse.\n")
+        print("\n".join(wrap("Take your time to do the following invocation with meaning and purpouse.", self.line_size)))
         sleep(2.5)
         self.invocation()
         sleep(2)
@@ -101,8 +81,8 @@ class Tarot:
             if answer == "Yes":
                 for i in range(3):
                     print(f"Deck shuffle: {i + 1}")
-                    shuffle(self.deck)
-                    sleep(1)
+                    sleep(0.5)
+                    shuffle(self.deck)           
                     self.shuffle = True
 
     def draw_fifteen(self):
@@ -117,9 +97,18 @@ class Tarot:
                 self.pontential_cards__upper_right.append(self.drawed[j])
             if j == 13 or j == 9 or j == 5:
                 self.assist_cards.append(self.drawed[j])
-            if j == 6 or j == 10 or j == 13:
+            if j == 6 or j == 10 or j == 14:
                 self.destiny_cards.append(self.drawed[j])
-
+        for i in self.dominant_cards:
+            print(f"Dominant: {i['name']}")
+        for i in self.pontential_cards__upper_right:
+            print(f"Potential right: {i['name']}")
+        for i in self.pontential_cards_upper_left:
+            print(f"Potential left: {i['name']}")
+        for i in self.assist_cards:
+            print(f" assist: {i['name']}")
+        for i in self.destiny_cards:
+            print(f"destiny: {i['name']}")
 
     def show_instructions(self):
         self.draw_line()
@@ -209,11 +198,30 @@ class Tarot:
             self.draw_card_line()
             print("\n".join(wrap(card["meaning"], self.card_size)) + "\n")
 
+    def start_tarot(self):
+        self.draw_line()
+        print("TARO DIVINATION DARK MAGICK".center(self.line_size))
+        self.draw_line()
+        tarot.fillDeck()
+        tarot.get_name()
+        tarot.get_purpouse()
+        tarot.shuffle_deck_three_times()
+        tarot.draw_fifteen()
+        tarot.show_instructions()
+        tarot.show_dominant_cards()
+        sleep(5)
+        tarot.show_potential_cards_upper_right()
+        sleep(5)
+        tarot.show_pontetial_cards_upper_left()
+        sleep(5)
+        tarot.show_assist_cards()
+        sleep(5)
+        tarot.show_destiny_cards()
+
     def save(self):
         pass
 
 
 tarot = Tarot()
-tarot.start_taro()
-
+tarot.start_tarot()
 tarot.save()
