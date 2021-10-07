@@ -10,7 +10,7 @@ information_guide = {
     "destiny_cards": "These cards show forces operating beyond the querent’s control—destiny or karma—to which the querent can adapt. In this sense they constitute advice as well.",
     "court_cards": "Princes and queens most often indicate actual men and women connected with the matter. Knights may mean the coming or going of a matter, or arrival or departure, according to the direction in which they face. Princesses may show ideas, thoughts, or opinions related to the subject. The court cards in general represent psychological states.",
     "groups": "Wands indicate great energy; cups, love and emotions; swords relate to intellectual matters; and disks, business affairs. A majority of Trumps indicates higher forces at work. Court cards indicate social events, aces, new beginnings, great energy, and strength.",
-    "neighbord_cards": "A card’s meaning is strengthened by neighboring cards of the same suit. Cards of opposite nature are weaker. Swords are adverse to disks. Wands oppose cups. Swords are friendly to cups and wands. Wands complement swords and disks. A card falling between two contrary cards is affected by neither"
+    "neighbor_cards": "A card’s meaning is strengthened by neighboring cards of the same suit. Cards of opposite nature are weaker. Swords are adverse to disks. Wands oppose cups. Swords are friendly to cups and wands. Wands complement swords and disks. A card falling between two contrary cards is affected by neither"
 }
 # WARDS TAROT
 wards_tarot_cards = [
@@ -420,4 +420,5 @@ major_tarot_cards = [
 ]
 
 # INVOCATION OF THE GOLDEN DAWN
-initial_invocation = "I, invoke Thee, IAO, that thou wilt send HRU, the great Angel that is set over the operations of this secret Wisdom, to lay his hand invisibly on these consecrated cards of art, that thereby we may obtain true knowledge of hidden things to the glory of thine ineffable Name.\nAmen"
+initial_invocation = "Oh Self that I seek to Become, open your mysteries to me. Rejoice in steps to overcome that which hinders me, bless my serenity in accepting that which I must suffer to change me, and energize my magical curiosity that I may know the difference. Let my view extend beyond time and space! Hail, my Self-to-Be!"
+closing_invocation = "From the Future you come!"
