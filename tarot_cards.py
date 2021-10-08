@@ -17,22 +17,22 @@ wards_tarot_cards = [
     {
         "code": "K",
         "name": "Knight of Wards",
-        "meaning": "The fiery part of fire. A man of activity, generosity, pride and swiftness. Cruelty, bigotry, petulance."
+        "meaning": "A man of activity, generosity, pride and swiftness. Cruelty, bigotry, petulance."
     },
     {
         "code": "Q",
         "name": "Queen of Wards",
-        "meaning": "The watery part of fire. A woman of adaptability, persistent energy, calm authority, powers of attraction, generous but intolerant. Obstinacy, revenge, dominance."
+        "meaning": "A woman of adaptability, persistent energy, calm authority, powers of attraction, generous but intolerant. Obstinacy, revenge, dominance."
     },
     {
         "code": "J",
         "name": "Prince of Wards",
-        "meaning": "The airy part of fire. A young man, swift and strong, impulsive, violent, just, noble and generous with a sense of humor. Proud, intolerant, cruel, cowardly, and prejudiced."
+        "meaning": "A young man, swift and strong, impulsive, violent, just, noble and generous with a sense of humor. Proud, intolerant, cruel, cowardly, and prejudiced."
     },
     {
         "code": "J",
         "name": "Princess of Wards",
-        "meaning": "The earthy part of fire. An energetic young woman, individualistic, brilliant and daring, expressive in love or anger, enthusiastic. Superficial, theatrical, shallow, cruel, unreliable, faithless."
+        "meaning": "An energetic young woman, individualistic, brilliant and daring, expressive in love or anger, enthusiastic. Superficial, theatrical, shallow, cruel, unreliable, faithless."
     },
     {
         "code": "A",
@@ -90,22 +90,22 @@ cups_tarot_cards = [
     {
         "code": "K",
         "name": "Knight of Cups",
-        "meaning": "The fiery part of water. A man with commitment issues. Amiable but passive. Attracted to excitement. Unsustainable enthusiasm. Sensitive but shallow. Influenced: Sensual and idle, untruthful, prone to depression and drug abuse."
+        "meaning": "A man with commitment issues. Amiable but passive. Attracted to excitement. Unsustainable enthusiasm. Sensitive but shallow. Influenced: Sensual and idle, untruthful, prone to depression and drug abuse."
     },
     {
         "code": "Q",
         "name": "Queen of Cups",
-        "meaning": "The watery part of water. An observer, dreamy, tranquil, poetic, imaginative, kind yet passive. Impressionable to other card influences."
+        "meaning": "An observer, dreamy, tranquil, poetic, imaginative, kind yet passive. Impressionable to other card influences."
     },
     {
         "code": "J",
         "name": "Prince of Cups",
-        "meaning": "The airy part of water. A young man of subtlety, secret violence, craft. An artist whose calm surface masks intense passion. Ruthless in his aims. Ambitious and obtuse."
+        "meaning": "A young man of subtlety, secret violence, craft. An artist whose calm surface masks intense passion. Ruthless in his aims. Ambitious and obtuse."
     },
     {
         "code": "J",
         "name": "Princess of Cups",
-        "meaning": "The earthy part of water. A young woman, infinitely gracious, sweet, voluptuous, gentle, kind, romantic and dreamy. Indolent, selfish and luxurious woman."
+        "meaning": "A young woman, infinitely gracious, sweet, voluptuous, gentle, kind, romantic and dreamy. Indolent, selfish and luxurious woman."
     },
     {
         "code": "A",
@@ -163,22 +163,22 @@ swords_tarot_cards = [
     {
         "code": "K",
         "name": "Knight of Swords",
-        "meaning": "The fiery part of air. An active man, skillful and clever. Fierce and courageous, but often unreflective. A man incapable of decision, deceitful and over-bearing."
+        "meaning": "An active man, skillful and clever. Fierce and courageous, but often unreflective. A man incapable of decision, deceitful and over-bearing."
     },
     {
         "code": "Q",
         "name": "Queen of Swords",
-        "meaning": "The watery part of air. A graceful woman, intensely perceptive, a keen observer, subtle interpreter, an intense individualist. Confident and gracious. Also: Cruel, sly, deceitful and unreliable woman. Superficially attractive."
+        "meaning": "A graceful woman, intensely perceptive, a keen observer, subtle interpreter, an intense individualist. Confident and gracious. Also: Cruel, sly, deceitful and unreliable woman. Superficially attractive."
     },
     {
         "code": "J",
         "name": "Prince of Swords",
-        "meaning": "The airy part of air. A young intellectual man, full of ideas and designs, domineering, intensely clever but unstable. Elusive. Impressionable. Influenced: Harsh, malicious, plotting, unreliable, fanatic."
+        "meaning": "A young intellectual man, full of ideas and designs, domineering, intensely clever but unstable. Elusive. Impressionable. Influenced: Harsh, malicious, plotting, unreliable, fanatic."
     },
     {
         "code": "J",
         "name": "Princess of Swords",
-        "meaning": "The earthy part of air. A young woman, stern and revengeful, with destructive logic, firm and aggressive, skilled in practical affairs. Influenced: Cunning, frivolous, and manipulative"
+        "meaning": "A young woman, stern and revengeful, with destructive logic, firm and aggressive, skilled in practical affairs. Influenced: Cunning, frivolous, and manipulative"
     },
     {
         "code": "A",
@@ -236,22 +236,22 @@ disks_tarot_cards = [
     {
         "code": "K",
         "name": "Knight of Disks",
-        "meaning": "The fiery part of earth. A farmer, patient, laborious and clever. Somewhat dull and preoccupied with material things. Influenced: Avaricious, surly, petty, jealous."
+        "meaning": "A farmer, patient, laborious and clever. Somewhat dull and preoccupied with material things. Influenced: Avaricious, surly, petty, jealous."
     },
     {
         "code": "Q",
         "name": "Queen of Disks",
-        "meaning": "The watery part of earth. A ambitious woman, yet affectionate and kind, charming, timid, practical, quiet and domesticated. Influenced: Dull. Servile. Foolish. Capricious. Moody."
+        "meaning": "A ambitious woman, yet affectionate and kind, charming, timid, practical, quiet and domesticated. Influenced: Dull. Servile. Foolish. Capricious. Moody."
     },
     {
         "code": "J",
         "name": "Prince of Disks",
-        "meaning": "The airy part of earth. An energetic young man. A capable manager and steadfast worker, competent, perhaps dull, somewhat skeptical of spirituality, slow to anger but implacable if aroused."
+        "meaning": "An energetic young man. A capable manager and steadfast worker, competent, perhaps dull, somewhat skeptical of spirituality, slow to anger but implacable if aroused."
     },
     {
         "code": "J",
         "name": "Princess of Disks",
-        "meaning": "The earthy part of earth. A young woman, beautiful and strong, pregnant with life. She is generous, kind, diligent, and benevolent. Influenced: Wasteful and at war with her essential dignity."
+        "meaning": "A young woman, beautiful and strong, pregnant with life. She is generous, kind, diligent, and benevolent. Influenced: Wasteful and at war with her essential dignity."
     },
     {
         "code": "A",
