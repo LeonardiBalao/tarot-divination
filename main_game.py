@@ -76,7 +76,8 @@ class Tarot:
         self.name = input("Start by telling me your full name, Master.\n-> ")
         sleep(1)
         self.draw_line()
-        print(f"Welcome, Master {self.get_last_name()}.".center(self.line_size))
+        print(f"Welcome, Master {self.get_last_name()}.".center(
+            self.line_size))
         sleep(1)
         print(f"Today's date is: {self.current_date}.".center(self.line_size))
         sleep(1)
@@ -85,21 +86,22 @@ class Tarot:
             "Take your time to do the following invocation with meaning and purpouse.", self.line_size)))
         sleep(1.5)
         self.invocation()
-        while self.answer != "Yes":
-            self.answer = input("\n".join(wrap("Did you really meant it?", self.line_size)) + "(Yes or No)\n")
-        sleep(1.5)
+        while self.answer != "Y":
+            self.answer = input(
+                "\n".join(wrap("Did you really meant it?", self.line_size)) + " (Y/N)\n")
+        sleep(1)
 
     def get_factor(self):
-            self.draw_line()
-            self.answer = input("\n".join(wrap(
-                'Tell me, what is the main factor governing your situation?', self.line_size)) + "\n-> ")
-            self.factor = self.answer
+        self.draw_line()
+        self.answer = input("\n".join(wrap(
+            'Tell me, what is the main factor governing your situation?', self.line_size)) + "\n-> ")
+        self.factor = self.answer
 
     def shuffle_deck(self):
         while self.shuffle == False:
-            answer = input(
-                f"Master {self.name}, would you like to start shuffling your cards?\n-> ")
-            if answer == "Yes":
+            answer = input("\n".join(wrap(
+                f"Master {self.get_last_name}, would you like to start shuffling your cards? (Y/N)", self.line_size)) + "\n-> ")
+            if answer == "Y":
                 for i in range(666):
                     print(f"Deck shuffle: {i + 1}")
                     shuffle(self.deck)
@@ -131,12 +133,14 @@ class Tarot:
             wrap(tarot_cards.information_guide["court_cards"], self.line_size)) + "\n")
         self.draw_line()
         sleep(1)
-        print("\033[1m" + "About the Suits cards".ljust(self.line_size) + "\033[0m" + '\n')
+        print(
+            "\033[1m" + "About the Suits cards".ljust(self.line_size) + "\033[0m" + '\n')
         print("\n".join(
             wrap(tarot_cards.information_guide["groups"], self.line_size)) + "\n")
         self.draw_line()
         sleep(1)
-        print("\033[1m" + "About Neighbor cards".ljust(self.line_size) + "\033[0m" + '\n')
+        print(
+            "\033[1m" + "About Neighbor cards".ljust(self.line_size) + "\033[0m" + '\n')
         print("\n".join(
             wrap(tarot_cards.information_guide["neighbor_cards"], self.line_size)) + "\n")
         sleep(1)
@@ -243,11 +247,11 @@ class Tarot:
         tarot.closing_invocation()
 
     def save(self):
-        self.save = input("\n".join(wrap(f"Master {self.get_last_name()}, would you like to save this to your personal archieve? (Yes or No)", self.line_size)) + "\n")
-        if self.save == "Yes":
+        self.save = input("\n".join(wrap(
+            f"Master {self.get_last_name()}, would you like to save this to your personal archieve? (Y/N)", self.line_size)) + "\n")
+        if self.save != 'N':
             with open(f"{self.get_last_name()} - {self.current_date} - {self.factor}.txt", "w") as saved_file:
                 saved_file.write(
-
                     f"{self.name}\n"
                     "----------------------\n"
                     f"{self.current_date}\n"
